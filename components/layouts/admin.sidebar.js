@@ -34,17 +34,17 @@ const AdminSidebar = () => {
         <div className="tab-pane active " id="index1">
           <ul className="side-menu toggle-menu">
             <li className="slide">
-              <a className="side-menu__item" data-toggle="slide" href="#"><i className="side-menu__icon typcn typcn-device-desktop" /><span className="side-menu__label">Home</span><i className="angle fa fa-angle-right" /></a>
+              <Link className="side-menu__item" data-toggle="slide" href="/"><i className="side-menu__icon typcn typcn-device-desktop" /><span className="side-menu__label">Home</span><i className="angle fa fa-angle-right" /></Link>
             </li>
             <li className="slide">
-              <a className="side-menu__item" data-toggle="slide" href="#"><i className="side-menu__icon typcn typcn-th-large-outline" /><span className="side-menu__label">Member</span><i className="angle fa fa-angle-right" /></a>
+              <Link className="side-menu__item" data-toggle="slide" href="/member"><i className="side-menu__icon typcn typcn-th-large-outline" /><span className="side-menu__label">Member</span><i className="angle fa fa-angle-right" /></Link>
             
             </li>
             <li>
-              <a className="side-menu__item" href="widgets.html"><i className="side-menu__icon typcn typcn-arrow-move-outline" /><span className="side-menu__label">Report</span></a>
+              <Link className="side-menu__item" href="#"><i className="side-menu__icon typcn typcn-arrow-move-outline" /><span className="side-menu__label">Report</span></Link>
             </li>
             <li>
-              <a className="side-menu__item" href="maps.html"><i className="side-menu__icon typcn typcn-location-outline" /><span className="side-menu__label">Logout</span></a>
+              <Link className="side-menu__item" href="#"><i className="side-menu__icon typcn typcn-location-outline" /><span className="side-menu__label">Logout</span></Link>
             </li>
             
           </ul>
